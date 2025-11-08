@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+	--bg: #05060a;
+	--fg: #e7e9ee;
+	--muted: #98a0b3;
+}
+
+html,
+body,
+:root {
+	height: 100%;
+}
+
+body {
+	background:
+		radial-gradient(1200px 600px at 80% -10%, rgba(90, 120, 255, 0.08), transparent 60%),
+		radial-gradient(900px 500px at -10% 120%, rgba(190, 40, 255, 0.07), transparent 55%),
+		var(--bg);
+	color: var(--fg);
+}
+
+.glass {
+	background-color: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(24px);
+	border-radius: 1.5rem;
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.06), 0 12px 40px rgba(0,0,0,0.65), inset 0 1px 0 rgba(255,255,255,0.06), inset 0 0 80px rgba(255,255,255,0.04);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-glow {
+	text-shadow: 0 0 24px rgba(255, 255, 255, 0.35);
+}
+
+.grid-premium {
+	/* subtle premium grid overlay */
+	background-image:
+		linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+	background-size: 40px 40px;
+	animation: grid-drift 60s linear infinite;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in-up {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes grid-drift {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 40px 40px;
+	}
+}
+
+.animate-fade-in {
+	animation: fade-in 0.8s ease-out forwards;
+	opacity: 0;
+}
+
+.animate-fade-in-up {
+	animation: fade-in-up 1s ease-out forwards;
+	opacity: 0;
+}
+
+
