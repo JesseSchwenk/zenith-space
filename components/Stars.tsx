@@ -1,5 +1,7 @@
 /* Animated starfield with multiple layers and parallax movement */
-import { memo, useMemo } from "react";
+"use client";
+
+import { memo, useMemo, useState, useEffect } from "react";
 
 function generateBoxShadows(count: number, spread: number) {
 	const points: string[] = [];
@@ -56,6 +58,16 @@ function Layer({
 }
 
 function Stars() {
+	const [isMounted, setIsMounted] = useState(false);
+
+	useEffect(() => {
+		setIsMounted(true);
+	}, []);
+
+	if (!isMounted) {
+		return <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden" />;
+	}
+
 	return (
 		<div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
 			{/* Deep space layer - slowest, most stars */}

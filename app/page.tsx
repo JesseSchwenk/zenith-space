@@ -25,6 +25,7 @@ export default function Page() {
 					<a href="#technology" className="px-4 py-1 text-sm text-white/70 hover:text-white/90 transition-colors">Technology</a>
 					<a href="#mission" className="px-4 py-1 text-sm text-white/70 hover:text-white/90 transition-colors">Mission</a>
 					<a href="#contact" className="px-4 py-1 text-sm text-white/70 hover:text-white/90 transition-colors">Contact</a>
+					<a href="/team" className="px-4 py-1 text-sm text-white/70 hover:text-white/90 transition-colors">Team</a>
 				</div>
 
 				{/* Mobile Navigation */}
@@ -52,6 +53,7 @@ export default function Page() {
 							<a href="#technology" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 text-sm text-white/70 hover:text-white/90 transition-colors rounded-lg hover:bg-white/5">Technology</a>
 							<a href="#mission" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 text-sm text-white/70 hover:text-white/90 transition-colors rounded-lg hover:bg-white/5">Mission</a>
 							<a href="#contact" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 text-sm text-white/70 hover:text-white/90 transition-colors rounded-lg hover:bg-white/5">Contact</a>
+							<a href="/team" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 text-sm text-white/70 hover:text-white/90 transition-colors rounded-lg hover:bg-white/5">Team</a>
 						</div>
 					)}
 				</div>
@@ -364,6 +366,11 @@ export default function Page() {
 								<li>
 									<a href="#contact" className="text-white/70 hover:text-white/90 transition-colors">
 										Contact
+									</a>
+								</li>
+								<li>
+									<a href="/team" className="text-white/70 hover:text-white/90 transition-colors">
+										Team
 									</a>
 								</li>
 							</ul>
