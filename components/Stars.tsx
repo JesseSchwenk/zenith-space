@@ -57,7 +57,7 @@ function Layer({
 
 function Stars() {
 	return (
-		<div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+		<div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
 			{/* Deep space layer - slowest, most stars */}
 			<Layer count={1200} size={1} opacity={0.9} duration={200} delay={0} direction={1} />
 			<Layer count={800} size={1} opacity={0.7} duration={240} delay={20} direction={1} />

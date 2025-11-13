@@ -6,17 +6,19 @@
 	--muted: #98a0b3;
 }
 
-html,
-body,
-:root {
+html {
+	scroll-behavior: smooth;
 	height: 100%;
+	background: var(--bg);
 }
 
 body {
-	background:
+	min-height: 100vh;
+	background-color: var(--bg);
+	background-image:
 		radial-gradient(1200px 600px at 80% -10%, rgba(90, 120, 255, 0.08), transparent 60%),
-		radial-gradient(900px 500px at -10% 120%, rgba(190, 40, 255, 0.07), transparent 55%),
-		var(--bg);
+		radial-gradient(900px 500px at -10% 120%, rgba(190, 40, 255, 0.07), transparent 55%);
+	background-attachment: fixed;
 	color: var(--fg);
 }
 
