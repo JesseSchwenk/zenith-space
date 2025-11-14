@@ -82,15 +82,15 @@ export default function Page() {
 					{/* Content Section */}
 					<div className="flex-1 glass grid-premium p-6 sm:p-8 md:p-10 animate-fade-in-up animate-float-slow" style={{ animationDelay: "0.4s", animationDuration: "5s" }}>
 						<p className="mb-2 text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-white/60 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-							Orbital Debris Remediation
+							Space Debris Harvesting & In-Orbit Manufacturing
 						</p>
 						<h1 className="mb-4 md:mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight animate-fade-in" style={{ animationDelay: "0.8s" }}>
-							<span className="text-white/95">Cleaning space,</span>
+							<span className="text-white/95">Make Space Clean Again.</span>
 							<br />
 							<span className="text-white/80">one piece of debris at a time.</span>
 						</h1>
 						<p className="mb-6 md:mb-8 text-base sm:text-lg text-white/70 leading-relaxed animate-fade-in" style={{ animationDelay: "1s" }}>
-							We develop precision systems that locate, capture, and clear orbital debris — quietly restoring low‑Earth orbit for the missions that matter.
+							ZENITH harvests space debris, processes it in our Solar Forge, and transforms it into valuable materials through on-demand in-orbit 3D printing, preserving the orbital environment while enabling sustainable space manufacturing.
 						</p>
 						<div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in" style={{ animationDelay: "1.2s" }}>
 							<a href="#problem" className="px-6 sm:px-8 py-2.5 sm:py-3 bg-white/10 hover:bg-white/15 border border-white/20 rounded-lg text-white/90 transition-all backdrop-blur-sm text-center font-medium text-sm sm:text-base">
@@ -113,24 +113,24 @@ export default function Page() {
 					</h2>
 					<div className="space-y-4 md:space-y-6 text-white/70">
 						<p className="text-sm sm:text-base">
-							Low Earth Orbit is becoming increasingly congested. With over 34,000 tracked objects larger than 10cm and millions of smaller fragments, the risk of collisions threatens both active satellites and future space missions.
+							Space debris consists of broken satellites and rocket parts. More than 100 million pieces of space debris are estimated to orbit Earth, creating a cascading chain reaction known as Kessler Syndrome. Even the smallest pieces of space debris are able to damage satellites and put the life of astronauts at risk.
 						</p>
 						<div className="grid sm:grid-cols-2 gap-4 md:gap-6 mt-6 md:mt-8">
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">Exponential Growth</h3>
-								<p className="text-xs sm:text-sm">Debris population increases with each collision, creating cascading risks that compound over time.</p>
+								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">Kessler Syndrome</h3>
+								<p className="text-xs sm:text-sm">A cascading chain reaction where collisions create more debris, exponentially increasing the risk of further collisions.</p>
 							</div>
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">Critical Orbits</h3>
-								<p className="text-xs sm:text-sm">Valuable orbital slots are becoming unusable, limiting access to space for future generations.</p>
+								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">Mission Impossibility</h3>
+								<p className="text-xs sm:text-sm">Too much debris could make it impossible to launch satellites into orbit, ending space travel as we know it.</p>
 							</div>
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">Mission Risk</h3>
-								<p className="text-xs sm:text-sm">Active satellites face increasing collision probabilities, threatening critical infrastructure.</p>
+								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">Critical Infrastructure</h3>
+								<p className="text-xs sm:text-sm">No satellites mean no GPS and no internet for regions that are not connected by cable.</p>
 							</div>
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">Economic Impact</h3>
-								<p className="text-xs sm:text-sm">Debris mitigation costs billions annually and threatens the sustainability of space commerce.</p>
+								<h3 className="text-base md:text-lg font-semibold text-white/90 mb-2">The End of Space Travel</h3>
+								<p className="text-xs sm:text-sm">Coordinating space missions would become impossible, marking the end of space exploration.</p>
 							</div>
 						</div>
 					</div>
@@ -142,32 +142,39 @@ export default function Page() {
 				<div className="glass grid-premium w-full max-w-4xl p-6 sm:p-8 md:p-12 animate-fade-in-up">
 					<p className="mb-3 text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-white/60">Our Approach</p>
 					<h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl font-semibold leading-tight md:text-4xl text-white/90">
-						Precision Debris Remediation
+						Complete Space Recycling Cycle
 					</h2>
 					<div className="space-y-4 md:space-y-6 text-white/70">
 						<p className="text-sm sm:text-base">
-							ZENITH develops autonomous systems designed to safely and efficiently remove orbital debris. Our technology combines advanced detection, precision capture, and controlled deorbit capabilities.
+							ZENITH operates a complete cycle: harvesting space debris, processing it in our Solar Forge, and transforming recycled materials into valuable products through on-demand in-orbit 3D printing. We collaborate with well-known space firms and organizations such as SpaceX and NASA.
 						</p>
 						<div className="mt-6 md:mt-8 space-y-3 md:space-y-4">
 							<div className="flex gap-3 md:gap-4 items-start">
 								<div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white/90 font-semibold text-sm md:text-base">1</div>
 								<div>
-									<h3 className="text-base md:text-lg font-semibold text-white/90 mb-1">Detection & Tracking</h3>
-									<p className="text-xs sm:text-sm">Advanced sensor systems identify and track debris with millimeter precision, even in challenging lighting conditions.</p>
+									<h3 className="text-base md:text-lg font-semibold text-white/90 mb-1">Space Debris Harvesting</h3>
+									<p className="text-xs sm:text-sm">The Orbital Cleaner One uses LIDAR sensors, cameras, and artificial intelligence with motorized robotic arms to autonomously collect space debris, powered by 100% solar energy.</p>
 								</div>
 							</div>
 							<div className="flex gap-3 md:gap-4 items-start">
 								<div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white/90 font-semibold text-sm md:text-base">2</div>
 								<div>
-									<h3 className="text-base md:text-lg font-semibold text-white/90 mb-1">Precision Capture</h3>
-									<p className="text-xs sm:text-sm">Autonomous rendezvous and capture mechanisms secure debris of various sizes and shapes without generating additional fragments.</p>
+									<h3 className="text-base md:text-lg font-semibold text-white/90 mb-1">Melting & Processing</h3>
+									<p className="text-xs sm:text-sm">The Solar Forge orbits Earth 24/7 as a fully automated facility, using mirrors to concentrate sunlight and melt collected debris. The molten material is separated into different metals (Aluminum, Gold, Titanium, etc.) for reuse.</p>
 								</div>
 							</div>
 							<div className="flex gap-3 md:gap-4 items-start">
 								<div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white/90 font-semibold text-sm md:text-base">3</div>
 								<div>
-									<h3 className="text-base md:text-lg font-semibold text-white/90 mb-1">Controlled Deorbit</h3>
-									<p className="text-xs sm:text-sm">Safe, predictable reentry ensures complete removal without risk to active satellites or ground infrastructure.</p>
+									<h3 className="text-base md:text-lg font-semibold text-white/90 mb-1">3D Printing & Manufacturing</h3>
+									<p className="text-xs sm:text-sm">Utilizing refined metals from the Solar Forge, we provide on-demand manufacturing and delivery of components directly in orbit, reducing launch dependency and material waste for future missions.</p>
+								</div>
+							</div>
+							<div className="flex gap-3 md:gap-4 items-start">
+								<div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white/90 font-semibold text-sm md:text-base">4</div>
+								<div>
+									<h3 className="text-base md:text-lg font-semibold text-white/90 mb-1">Recycling & Utilization</h3>
+									<p className="text-xs sm:text-sm">We recycle the material of collected space trash and utilize the recycled materials for other products, creating sustainable raw materials for manufacturing both in space and on Earth.</p>
 								</div>
 							</div>
 						</div>
@@ -184,32 +191,32 @@ export default function Page() {
 					</h2>
 					<div className="space-y-4 md:space-y-6 text-white/70">
 						<p className="text-sm sm:text-base">
-							Our systems leverage cutting-edge technologies to ensure reliable, autonomous operation in the harsh environment of space.
+							Our integrated technology stack enables fully autonomous operations in orbit, from debris collection to material processing and on-demand manufacturing.
 						</p>
 						<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mt-6 md:mt-8">
 							<div className="p-4 md:p-5 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">AI Navigation</h3>
-								<p className="text-xs">Machine learning algorithms enable autonomous decision-making and adaptive mission planning.</p>
+								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">The Orbital Cleaner One</h3>
+								<p className="text-xs">Fully autonomous debris collection system with LIDAR sensors, cameras, artificial intelligence, and motorized robotic arms, powered by 100% solar energy.</p>
 							</div>
 							<div className="p-4 md:p-5 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Multi-Sensor Fusion</h3>
-								<p className="text-xs">Combining optical, radar, and lidar systems for comprehensive situational awareness.</p>
+								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">The Solar Forge</h3>
+								<p className="text-xs">Orbiting 24/7 as a fully automated forge, using solar energy to melt down space debris and transform scrap aluminum and titanium into reusable materials.</p>
 							</div>
 							<div className="p-4 md:p-5 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Robust Capture</h3>
-								<p className="text-xs">Versatile end-effectors designed to handle diverse debris geometries and materials.</p>
+								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">3D Printing Facility</h3>
+								<p className="text-xs">On-demand in-orbit manufacturing using recycled materials, with autonomous robotic systems for crafting critical tools and producing high-value materials.</p>
 							</div>
 							<div className="p-4 md:p-5 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Propulsion Systems</h3>
-								<p className="text-xs">Efficient, reliable propulsion for precise maneuvering and controlled deorbit.</p>
+								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Material Separation</h3>
+								<p className="text-xs">Advanced processing technology that separates molten debris into pure metals including Aluminum, Gold, Titanium, and other valuable materials.</p>
 							</div>
 							<div className="p-4 md:p-5 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Mission Autonomy</h3>
-								<p className="text-xs">Long-duration autonomous operations with minimal ground intervention required.</p>
+								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Autonomous Manufacturing</h3>
+								<p className="text-xs">Fully autonomous robotic systems enable on-demand manufacturing and delivery of components without human interference.</p>
 							</div>
 							<div className="p-4 md:p-5 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Safety Protocols</h3>
-								<p className="text-xs">Redundant systems and fail-safe mechanisms ensure mission safety and reliability.</p>
+								<h3 className="text-sm md:text-base font-semibold text-white/90 mb-2">Solar-Powered Operations</h3>
+								<p className="text-xs">100% solar-powered systems ensure sustainable, continuous operation in orbit with minimal environmental impact.</p>
 							</div>
 						</div>
 					</div>
@@ -225,20 +232,20 @@ export default function Page() {
 					</h2>
 					<div className="space-y-4 md:space-y-6 text-white/70">
 						<p className="text-base sm:text-lg">
-							ZENITH is committed to preserving the space environment for future generations. We believe that space should remain accessible, safe, and sustainable.
+							Founded in 2013 by Jesse Schwenk, ZENITH is located in Bonn, Germany, with over 1,000 employees. Our vision is of a cleaner and safer orbit, and our mission is to preserve the orbital environment through innovative recycling and manufacturing solutions.
 						</p>
 						<div className="mt-6 md:mt-8 space-y-3 md:space-y-4">
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-lg md:text-xl font-semibold text-white/90 mb-2 md:mb-3">Sustainability</h3>
-								<p className="text-xs sm:text-sm">We're building the infrastructure needed to maintain space as a viable environment for centuries to come.</p>
+								<h3 className="text-lg md:text-xl font-semibold text-white/90 mb-2 md:mb-3">Our Vision</h3>
+								<p className="text-xs sm:text-sm">A vision of a cleaner and safer orbit, where space debris becomes a valuable resource rather than a threat.</p>
 							</div>
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-lg md:text-xl font-semibold text-white/90 mb-2 md:mb-3">Precision</h3>
-								<p className="text-xs sm:text-sm">Every mission is executed with meticulous attention to detail, ensuring safety and effectiveness.</p>
+								<h3 className="text-lg md:text-xl font-semibold text-white/90 mb-2 md:mb-3">Our Mission</h3>
+								<p className="text-xs sm:text-sm">Preserve the orbital environment by harvesting debris, recycling materials, and enabling sustainable in-orbit manufacturing.</p>
 							</div>
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
-								<h3 className="text-lg md:text-xl font-semibold text-white/90 mb-2 md:mb-3">Innovation</h3>
-								<p className="text-xs sm:text-sm">We continuously advance our technology to meet the evolving challenges of space debris remediation.</p>
+								<h3 className="text-lg md:text-xl font-semibold text-white/90 mb-2 md:mb-3">Our Approach</h3>
+								<p className="text-xs sm:text-sm">Recycled materials, autonomous manufacturing, and on-demand availability, building for space agencies and private companies such as NASA, ESA, SpaceX, and Starlink.</p>
 							</div>
 						</div>
 					</div>
@@ -254,7 +261,7 @@ export default function Page() {
 					</h2>
 					<div className="space-y-4 md:space-y-6 text-white/70">
 						<p className="text-sm sm:text-base">
-							Interested in learning more about our debris remediation solutions? We're always open to discussing partnerships, collaborations, and opportunities to make space safer together.
+							Interested in learning more about our space debris harvesting, recycling, and in-orbit manufacturing solutions? We're always open to discussing partnerships, collaborations, and opportunities to make space cleaner and more sustainable together.
 						</p>
 						<div className="mt-6 md:mt-8 space-y-3 md:space-y-4">
 							<div className="p-4 md:p-6 bg-white/5 rounded-lg border border-white/10">
